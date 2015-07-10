@@ -26,11 +26,7 @@ public class IsUnique {
   }
 
   public static void main(String[] args) throws IOException {
-    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-    String line;
-    while ((line = br.readLine()) != null) {
-      System.out.println(isUniqueUsingHash(line) ? "Unique" : "Not Unique"); 
-      System.out.println(isUniqueUsingSort(line) ? "Unique" : "Not Unique"); 
-    }
+    System.out.println(isUniqueUsingHash("Word") ? "Unique" : "Not Unique"); 
+    System.out.println(isUniqueUsingSort("Nootunique") ? "Unique" : "Not Unique"); 
   }
 }
