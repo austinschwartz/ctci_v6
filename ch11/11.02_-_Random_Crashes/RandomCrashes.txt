@@ -1,0 +1,4 @@
+1. Our program may depend on some element of randomness: user input, randomly generated number, time, etc
+2. If our program is using an uninitialized variable, it could be accessing data it isn't supposed to (same with accessing something outside of an arrays indices)
+3. Our program may be using an external library that crashes all the time.
+4. Stack overflows
