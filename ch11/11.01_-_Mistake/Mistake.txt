@@ -1,0 +1,6 @@
+/* Using --i means when i=0, it passes the check for i >= 0,
+ * then subtracts 1 from i, and prints out -1. Use i++
+
+unsigned int i = 0;
+for (i = 100; i >= 0; i--)
+  printf("%d\n", i); 
