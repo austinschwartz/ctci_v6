@@ -9,8 +9,13 @@ do
   echo "ch${chapters[$i]} - ${x} / ${totals[$i]}" >> ${name}
 done
 
+total=0
+for i in ${totals[@]}; do
+  let total+=$i
+done
+
 echo "\nTotal" >> ${name}
 echo */*/* | tr ' ' '\n' | grep -E "((\w*)(java|c|cpp|txt)$)" | wc -l | bc | tr -d "\n" >> ${name}
-echo " / 189 problems\n" >> ${name}
+echo " / ${total} problems\n" >> ${name}
 
 cat ${name}

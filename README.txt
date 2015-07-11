@@ -19,5 +19,5 @@ ch16 - 3 / 26
 ch17 - 0 / 26
 
 Total
-24 / 189 problems
+24 / 186 problems
 
