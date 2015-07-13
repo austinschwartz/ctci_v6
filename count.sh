@@ -15,7 +15,7 @@ for i in ${totals[@]}; do
 done
 
 echo "\nTotal" >> ${name}
-echo */*/* | tr ' ' '\n' | grep -E "((\w*)(java|c|cpp|txt)$)" | wc -l | bc | tr -d "\n" >> ${name}
+echo */*/* | tr ' ' '\n' | grep -E "((\w*)(java|c|cpp|txt|md)$)" | wc -l | bc | tr -d "\n" >> ${name}
 echo " / ${total} problems\n" >> ${name}
 
 cat ${name}
