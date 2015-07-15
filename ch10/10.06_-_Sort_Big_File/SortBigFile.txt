@@ -1,0 +1,8 @@
+Imagine you have a 20 GB file with one string per line. Explain how you would sort the file.
+
+Given the memory space requirement for traditional sorting algorithms, we should figure out a way of sorting without using much space.
+What we can do is only load a chunk of the file in at a time. We can load a small chunk, sort it, then save it, and repeat for all chunks.
+Once we sort all chunks, we use merge sort to merge and sort the chunks one by one.
+This is refered to as an external sort.
+
+https://en.wikipedia.org/wiki/External_sorting
