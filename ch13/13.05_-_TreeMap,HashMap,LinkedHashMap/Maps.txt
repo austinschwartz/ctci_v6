@@ -1,0 +1,3 @@
+TreeMap returns keys in sorted order, with O(log_n) lookup and insertion. Implemented by a Red-Black tree.
+HashMap returns keys in arbitrary order, with O(1) lookup and insertion. Implemented with an array of linked lists.
+LinkedHashMap returns keys in insertion order, with O(1) lookup and insertion. Implemented by doubly-linked buckets.
