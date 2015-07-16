@@ -1,6 +1,6 @@
 Cracking the Coding Interview problems
 
-ch01 - 8 / 9
+ch01 - 9 / 9
 ch02 - 8 / 8
 ch03 - 0 / 6
 ch04 - 1 / 12
@@ -19,5 +19,5 @@ ch16 - 5 / 26
 ch17 - 2 / 26
 
 Total
-45 / 186 problems
+46 / 186 problems
 
