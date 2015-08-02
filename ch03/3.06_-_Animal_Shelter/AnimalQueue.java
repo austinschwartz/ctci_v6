@@ -43,6 +43,22 @@ public class AnimalQueue {
       return dequeueDog();
   }
 
+  public Animal peek() throws EmptyQueueException {
+    if (dogs.size() == 0 && cats.size() == 0)
+      throw new EmptyQueueException();
+    if (dogs.size() == 0)
+      return cats.peek();
+    if (cats.size() == 0)
+      return dogs.peek();
+
+    Cat oldestCat = cats.peek();
+    Dog oldestDog = dogs.peek();
+    if (oldestCat.isOlderThan(oldestDog))
+      return oldestCat;
+    else
+      return oldestDog;
+  }
+
   public Dog dequeueDog() {
     dogs.poll();
   }
