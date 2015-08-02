@@ -2,8 +2,8 @@ Cracking the Coding Interview problems
 
 ch01 - 9 / 9
 ch02 - 8 / 8
-ch03 - 0 / 6
-ch04 - 1 / 12
+ch03 - 1 / 6
+ch04 - 0 / 12
 ch05 - 5 / 8
 ch06 - 0 / 10
 ch07 - 0 / 9
