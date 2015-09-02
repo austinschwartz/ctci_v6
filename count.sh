@@ -5,7 +5,8 @@ rm ${name}
 echo "Cracking the Coding Interview problems\n" >> ${name}
 for (( i=0; i<=16; i++  ))
 do
-  x=`echo */*/* | tr " " "\n" | grep  -E "((ch${chapters[$i]}.*)(java|c|cpp|txt|md|sql)$)" | wc -l | bc`
+  #x=`echo */*/* | tr " " "\n" | grep  -E "((ch${chapters[$i]}.*)(java|c|cpp|txt|md|sql)$)" | wc -l | bc`
+  x=`echo */* | tr " " "\n" | grep -E "(ch${chapters[$i]}.*)" | wc -l | bc`
   echo "ch${chapters[$i]} - ${x} / ${totals[$i]}" >> ${name}
 done
 
@@ -15,7 +16,7 @@ for i in ${totals[@]}; do
 done
 
 echo "\nTotal" >> ${name}
-echo */*/* | tr ' ' '\n' | grep -E "((\w*)(java|c|cpp|txt|md|sql)$)" | wc -l | bc | tr -d "\n" >> ${name}
+echo */* | tr ' ' '\n' | wc -l | bc | tr -d "\n" >> ${name}
 echo " / ${total} problems\n" >> ${name}
 
 cat ${name}
