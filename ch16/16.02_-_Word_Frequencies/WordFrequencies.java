@@ -5,7 +5,7 @@ public class WordFrequencies {
 
   public static void setUpHashTable(String str) {
     map = new HashMap<String, Integer>();
-    String[] words = str.split(" ");
+    String[] words = str.replaceAll("[^A-Za-z0-9]", " ").split(" ");
     for (String word : words) {
       if (map.containsKey(word))
         map.put(word, map.get(word) + 1);
