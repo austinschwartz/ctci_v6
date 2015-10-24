@@ -1,0 +1,4 @@
+There are 3 solutions in the book for this.
+First is O(b^2) time, where b is the length of the sequence
+Second is O(b) time, O(b) space
+Third is O(b) time, O(1) space
