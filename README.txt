@@ -7,7 +7,7 @@ ch04 - 10 / 12
 ch05 - 6 / 8
 ch06 - 1 / 10
 ch07 - 2 / 9
-ch08 - 9 / 14
+ch08 - 10 / 14
 ch09 - 0 / 8
 ch10 - 6 / 11
 ch11 - 2 / 6
@@ -19,6 +19,6 @@ ch16 - 6 / 26
 ch17 - 2 / 26
 
 Total
-76 / 186 problems
+77 / 186 problems
 
 Note: These are my personal solutions. Feel free to make an issue/submit a pull request if any of my solutions are incorrect, but I won't be accepting any pull requests for problems I haven't done.
