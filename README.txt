@@ -3,7 +3,7 @@ Cracking the Coding Interview problems
 ch01 - 9 / 9
 ch02 - 8 / 8
 ch03 - 6 / 6
-ch04 - 10 / 12
+ch04 - 11 / 12
 ch05 - 6 / 8
 ch06 - 1 / 10
 ch07 - 2 / 9
@@ -19,6 +19,6 @@ ch16 - 6 / 26
 ch17 - 2 / 26
 
 Total
-79 / 186 problems
+80 / 186 problems
 
 Note: These are my personal solutions. Feel free to make an issue/submit a pull request if any of my solutions are incorrect, but I won't be accepting any pull requests for problems I haven't done.
