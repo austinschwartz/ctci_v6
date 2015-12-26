@@ -7,6 +7,7 @@ public class SumLists {
     public Node(int val) {
       this.val = val;
     }
+    @Override
     public String toString() {
       StringBuilder sb = new StringBuilder();
       Node temp = this;
@@ -33,7 +34,7 @@ public class SumLists {
       Node next = nodeSum(a == null ? null : a.next,
                           b == null ? null : b.next,
                           value / 10);
-+     result.next = next;
+      result.next = next;
     }
     return result;
   }
