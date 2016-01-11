@@ -19,6 +19,6 @@ echo "\nTotal" >> ${name}
 echo */* | tr ' ' '\n' | wc -l | bc | tr -d "\n" >> ${name}
 echo " / ${total} problems\n" >> ${name}
 
-echo "Note: These are my personal solutions. Feel free to make an issue/submit a pull request if any of my solutions are incorrect, but I won't be accepting any pull requests for problems I haven't done." >> ${name}
+echo "Feel free to submit your own solutions! All pull requests welcome!" >> ${name}
 
 cat ${name}

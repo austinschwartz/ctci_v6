@@ -21,4 +21,4 @@ ch17 - 2 / 26
 Total
 88 / 186 problems
 
-Note: These are my personal solutions. Feel free to make an issue/submit a pull request if any of my solutions are incorrect, but I won't be accepting any pull requests for problems I haven't done.
+Feel free to submit your own solutions! All pull requests welcome!
