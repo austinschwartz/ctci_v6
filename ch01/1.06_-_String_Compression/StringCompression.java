@@ -8,9 +8,15 @@ public class StringCompression {
       if (str.charAt(i) != str.charAt(i + 1)) {
         sb.append(str.charAt(i));
         sb.append(count);
+        // reset count to 1
+        count = 1;
       } else
         count++;
     }
+    // add last set of characters
+    sb.append(str.charAt(i));
+    sb.append(count);
+    
     String x = sb.toString();
     if (x.length() > str.length())
       return str;
